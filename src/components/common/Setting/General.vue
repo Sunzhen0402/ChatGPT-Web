@@ -126,7 +126,7 @@ function handleImportButtonClick(): void {
       <div class="flex items-center space-x-4">
         <span class="flex-shrink-0 w-[100px]">{{ $t('setting.avatarLink') }}</span>
         <div class="flex-1">
-          <NInput v-model:value="avatar" placeholder="" />
+          <NInput placeholder="松果科技" />
         </div>
         <NButton size="tiny" text type="primary" @click="updateUserInfo({ avatar })">
           {{ $t('common.save') }}
